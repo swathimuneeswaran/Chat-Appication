@@ -1,0 +1,65 @@
+.log{
+    position: absolute;
+    bottom: 700px!important;
+    width: 0%;
+    left:600px!important;
+   
+   
+
+}
+
+.image1{
+   
+    width: 100%!important; 
+   
+  
+  
+  
+}
+.contain{
+    width: 100%!important; 
+    height: 200px!important;
+}
+
+
+
+.log h1{
+    font-size: 30px;
+}
+
+.label1{
+    margin-left: 43px !important;
+    color:rgb(250, 235, 235);
+}
+.input1{
+    margin-left: 40px !important;
+    margin-top: 7px !important;
+    height:37px;
+    border-radius: 7px;
+    padding: 10px !important;
+    background-color: rgb(40, 36, 36);
+}
+
+.pass
+{
+    margin-top: 10px !important;
+}
+
+.but{
+    width:50%;
+    margin-left: 88px !important;
+    margin-top: 20px !important;
+    height:30px !important;
+}
+
+.but:hover{
+  background-color: rgb(59, 56, 56)!important;
+  color: white !important;
+}
+.acc
+{
+    margin-left: 43px !important;
+    margin-top: 10px!important;
+   
+}
+

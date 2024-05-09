@@ -1,0 +1,21 @@
+.back{
+   
+    width: 140%!important; 
+    height: 200px!important;
+    background-size: contain!important;
+   background-position: center!important;
+      
+}
+.img{
+    width: 100%!important; 
+    
+
+}
+
+.box{
+   
+    margin-left: 0px!important;
+    position: absolute;
+    bottom: 60px!important;
+    left:400px!important;
+}

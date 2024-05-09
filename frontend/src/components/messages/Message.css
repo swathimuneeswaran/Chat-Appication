@@ -1,0 +1,37 @@
+.imag{
+    margin-right: 20px !important;
+    width: 50px !important;
+}
+
+.chatty{
+    margin-top: 20px !important;
+    padding: 5px !important;
+}
+
+.box1{
+    padding: 9px !important;
+    height:auto !important;
+    
+}
+
+.send{
+    height: 40px !important;
+    width:95%;
+    margin-left: 10px !important;
+    padding-left: 9px !important;
+    
+}
+
+.back{
+    height: 40px !important;
+    padding: 10px !important;
+}
+
+.icon{
+    right:30px !important;
+    color:white !important;
+}
+
+.welcome{
+    color: black;
+}

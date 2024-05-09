@@ -3,7 +3,7 @@ import bcrypt from "bcryptjs";
 import generateTokenandSetCookie from "../utils/generateToken.js";
 export const register = async (req, res) => {
   try {
-    const { fullName, username, email, password, confirmPassword, gender } =
+    const { fullName, username, password, confirmPassword, gender } =
       req.body;
     if (password !== confirmPassword) {
       return res.status(400).json({
@@ -11,7 +11,7 @@ export const register = async (req, res) => {
       });
     }
 
-    const user = await User.findOne({ email });
+    const user = await User.findOne({ username });
 
     if (user) {
       return res.status(400).json({
@@ -28,7 +28,6 @@ export const register = async (req, res) => {
     const newUser = new User({
       fullName,
       username,
-      email,
       password: hashedPassword,
       gender,
       profilePic: gender === "male" ? boyProfile : girlProfile,

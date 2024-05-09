@@ -1,0 +1,87 @@
+.log {
+    position: relative; /* Change to relative position */
+    z-index: 1; /* Ensure the content is in front of the video */
+   
+  }
+
+
+.log h1{
+    font-size: 30px;
+}
+.sign{
+    font-style: italic;
+}
+
+.label1{
+    margin-left: 43px !important;
+    color:rgb(250, 235, 235);
+}
+.input1{
+    margin-left: 40px !important;
+    margin-top: 7px !important;
+    height:37px;
+    border-radius: 7px;
+    padding: 10px !important;
+    background-color: rgb(40, 36, 36);
+}
+
+.pass
+{
+    margin-top: 10px !important;
+}
+
+.but{
+    width:50%;
+    margin-left: 88px !important;
+    margin-top: 20px !important;
+    height:30px !important;
+}
+
+.but:hover{
+  background-color: rgb(59, 56, 56)!important;
+  color: white !important;
+}
+.acc
+{
+    margin-left: 43px !important;
+    margin-top: 10px!important;
+   
+}
+@media screen and (max-width: 700px) {
+    .log{
+    position: absolute;
+    top:100px !important;
+    left: 12%!important;
+     width:80% !important;
+     height:500px!important;
+     font-size:14px!important;
+    background-color: aqua;
+   
+     z-index: 1;
+     
+    }
+    .label1{
+        color: black !important;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .vid{
+       display: none;
+      
+    }
+
+  }
+
+  .check{
+    margin-left: 45px !important;
+    margin-top: 13px !important;
+    
+    font-weight: 500;
+  }
+
+  .check1{
+    margin-left: 10px !important;
+    margin-top: 13px !important;
+     font-weight: 500;
+  }
+
