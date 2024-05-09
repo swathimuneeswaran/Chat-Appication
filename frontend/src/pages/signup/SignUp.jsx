@@ -43,7 +43,7 @@ const SignUp = () => {
       loop
       muted
       playsInline
-      className='vid'
+      className='video1'
     >
       <source
         src="https://cdn.pixabay.com/video/2023/10/16/185209-875022131_large.mp4"
@@ -52,7 +52,7 @@ const SignUp = () => {
     </video>
     </div>
     <div className="flex flex-col items-center justify-center min-w-96 mx-auto  log">
-      <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
+      <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 box2">
         <h1 className=" font-semibold text-center text-gray-300 sign">
           SignUp<br></br>
           <span className="text-orange-500">Chatify</span>

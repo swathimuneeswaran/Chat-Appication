@@ -35,3 +35,8 @@
 .welcome{
     color: black;
 }
+
+.box_chatting{
+   
+    height:70vh !important;
+}

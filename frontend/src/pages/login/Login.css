@@ -62,4 +62,36 @@
     margin-top: 10px!important;
    
 }
+.heading_chat{
+    font-style: italic;
+}
+
+@media screen and (max-width:900px)
+{
+    .box_login{
+        position: absolute;
+        top:150px;
+        
+    }
+
+    
+}
+@media screen and (max-width:700px)
+{
+    .box_login{
+        position: absolute;
+        top:380px;
+        right:40px;
+        
+        
+    }
+    .video{
+      display: none;
+    }
+    .image1{
+        display: none!important;
+    }
+   
+    
+}
 
